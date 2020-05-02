@@ -57,7 +57,7 @@ class Example extends Component {
 
  name               | description                   | type     | Values
 :------------------ |:----------------------------- | --------:|:---------------------------------------------
- type               | Type of alert to show         |  String  |'error','success','confirm,'loader','warning'
+ type               | Type of alert to show         |  String  |'error','success','confirm,'warning'
  visible            | Visible state of the alert    |  Boolean | true or false
  title              | Title of alert                |  String  | Any String Value
  message            | Message of alert              |  String  | Any String Value
