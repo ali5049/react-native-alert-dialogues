@@ -25,14 +25,18 @@ yarn add npm i react-native-alert-dialogues
 ```
 
 ## Usage
-
+```bash
+Just put the Alert tag before the last closing tag of the component
+```
 ```javascript
 import React, { Component } from 'react';
+import {View} from 'react-native';
 import {Alert} from 'react-native-alert-dialogues';
 
 class Example extends Component {
   render() {
     return (
+      <View>
       <Alert
           visible={this.state.showAlert}
           type= "success"
@@ -43,6 +47,7 @@ class Example extends Component {
           }
           message= "Message to show."
         />
+        </View>
     );
   }
 }
