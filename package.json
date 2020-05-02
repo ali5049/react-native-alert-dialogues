@@ -1,0 +1,42 @@
+{
+  "name": "react-native-alert-dialogues",
+  "version": "1.0.1",
+  "description": "A simple and fully customisable React Native component that shows success or error messages.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ali-Haider-Ch/react-native-alert-dialogues.git"
+  },
+  "keywords": [
+    "React-Native",
+    "React-Native-Alerts",
+    "React-Native-Error-Alert",
+    "React-Native-Success-Alert",
+    "React-Native-Alert-Dialogues",
+    "React-Native-UI",
+    "React-Native-Component",
+    "React Natie",
+    "React Native Error Alert",
+    "React Native Success Alert",
+    "React Native Alerts",
+    "React Native Alert",
+    "React Native Alert Dialogue",
+    "React Native Alert Dialogues"
+  ],
+  "author": "Ali Hayder",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ali-Haider-Ch/react-native-alert-dialogues/issues"
+  },
+  "homepage": "https://github.com/Ali-Haider-Ch/react-native-alert-dialogues#readme",
+  "devDependencies": {
+    "metro-react-native-babel-preset": "^0.59.0"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react-native-indicators": "^0.17.0"
+  }
+}
