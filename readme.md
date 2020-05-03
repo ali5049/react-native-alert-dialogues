@@ -62,9 +62,8 @@ class Example extends Component {
  title              | Title of alert                |  String  | Any String Value
  message            | Message of alert              |  String  | Any String Value
  opacity            | Background opacity of dialogue|  Number  | between 0.0 - 1.0
- buttonTitlte       | Title of button in alert      |  String  | Any String Value
+ buttonTitle        | Title of button in alert      |  String  | Any String Value
  okTitle            | Title of +ve button           |  String  | Any String Value
- cancelTitle        | Title of cancel button        |  String  | Any String Value
  cancelTitle        | Title of cancel button        |  String  | Any String Value
  hideIcon           | Hide the icon in alert        |  Boolean | true or false
 

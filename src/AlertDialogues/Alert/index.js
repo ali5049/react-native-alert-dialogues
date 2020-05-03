@@ -74,7 +74,7 @@ export default class AlertDialogue extends Component {
           underlayColor="transparent"
           style={this.buttonStyle()}
           onPress={this.props.okPressed}>
-          <Text style={styles.buttonTitle}>{this.props.buttonTitlte}</Text>
+          <Text style={styles.buttonTitle}>{this.props.buttonTitle}</Text>
         </TouchableHighlight>
       );
     } else {
@@ -131,7 +131,7 @@ AlertDialogue.propTypes = {
   title: PropTypes.string,
   message: PropTypes.string,
   opacity: PropTypes.number,
-  buttonTitlte: PropTypes.string,
+  buttonTitle: PropTypes.string,
   okPressed: PropTypes.func,
   okTitle: PropTypes.string,
   cancelTitle: PropTypes.string,
@@ -144,6 +144,6 @@ AlertDialogue.defaultProps = {
   message: 'Sample messgae to show in case of any alert type',
   opacity: 0.8,
   type: 'success',
-  buttonTitlte: 'OK',
+  buttonTitle: 'OK',
   hideIcon: false,
 };

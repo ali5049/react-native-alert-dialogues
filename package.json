@@ -1,6 +1,6 @@
 {
   "name": "react-native-alert-dialogues",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple and fully customisable React Native component that shows success or error messages.",
   "main": "index.js",
   "scripts": {
@@ -38,5 +38,6 @@
   "dependencies": {
     "prop-types": "^15.7.2",
     "react-native-indicators": "^0.17.0"
-  }
+  },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/@Ali-Haider-Ch" }
 }
