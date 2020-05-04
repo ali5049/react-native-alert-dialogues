@@ -56,16 +56,17 @@ class Example extends Component {
 ## Common properties
 
  name               | description                   | type     | Values
-:------------------ |:----------------------------- | --------:|:---------------------------------------------
- type               | Type of alert to show         |  String  |'error','success','confirm,'warning'
- visible            | Visible state of the alert    |  Boolean | true or false
- title              | Title of alert                |  String  | Any String Value
- message            | Message of alert              |  String  | Any String Value
- opacity            | Background opacity of dialogue|  Number  | between 0.0 - 1.0
- buttonTitle        | Title of button in alert      |  String  | Any String Value
- okTitle            | Title of +ve button           |  String  | Any String Value
- cancelTitle        | Title of cancel button        |  String  | Any String Value
- hideIcon           | Hide the icon in alert        |  Boolean | true or false
+:------------------ |:----------------------------- | ---------------:|:---------------------------------------------
+ type               | Type of alert to show         |  String         |'error','success','confirm,'warning'
+ visible            | Visible state of the alert    |  Boolean        | true or false
+ title              | Title of alert                |  String         | Any String Value
+ message            | Message of alert              |  String         | Any String Value
+ opacity            | Background opacity of dialogue|  Number         | between 0.0 - 1.0
+ buttonTitle        | Title of button in alert      |  String         | Any String Value
+ okTitle            | Title of +ve button           |  String         | Any String Value
+ cancelTitle        | Title of cancel button        |  String         | Any String Value
+ iconImage          | Custome image source for icon |  Image Soucrce  | Any String Value
+ hideIcon           | Hide the icon in alert        |  Boolean        | true or false
 
  
 ## Callbacks

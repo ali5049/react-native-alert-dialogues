@@ -13,7 +13,7 @@ import PropTypes from 'prop-types';
 // import FullButton from '../Buttons/FullButton';
 export default class AlertDialogue extends Component {
   imageSource = () => {
-    if (!this.props.hideIcon) {
+    if (!this.props.hideIcon && !this.props.iconImage) {
       switch (this.props.type) {
         case 'success': {
           return require('../Images/success.png');
@@ -28,8 +28,8 @@ export default class AlertDialogue extends Component {
           return require('../Images/warning.png');
         }
       }
-    } else {
-      return '';
+    } else if(this.props.iconImage) {
+      return this.props.iconImage;
     }
   };
 
@@ -138,6 +138,7 @@ AlertDialogue.propTypes = {
   confirmed: PropTypes.func,
   cancelled: PropTypes.func,
   hideIcon: PropTypes.bool,
+  iconImage: PropTypes.node,
 };
 
 AlertDialogue.defaultProps = {

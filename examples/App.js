@@ -17,7 +17,10 @@ export default class App extends Component {
         <TouchableHighlight
           underlayColor="transparent"
           style={styles.successButton}
-          onPress={() => this.setState({showAlert: true, type: 'success'})}>
+          onPress={() => this.setState({showAlert: true, type: 'success',
+          message: 'Congratulations, You are signed up successfully'
+          })
+          }>
           <Text style={styles.title}> Success </Text>
         </TouchableHighlight>
 
