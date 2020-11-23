@@ -72,7 +72,7 @@ export default class AlertDialogue extends Component {
       return (
         <TouchableHighlight
           underlayColor="transparent"
-          style={this.buttonStyle()}
+          style={this.buttonStyle(),this.props.buttonColor?{backgroundColor:this.props.buttonColor}:null}
           onPress={this.props.okPressed}>
           <Text style={styles.buttonTitle}>{this.props.buttonTitle}</Text>
         </TouchableHighlight>
@@ -139,6 +139,7 @@ AlertDialogue.propTypes = {
   cancelled: PropTypes.func,
   hideIcon: PropTypes.bool,
   iconImage: PropTypes.node,
+  buttonColor: PropTypes.string
 };
 
 AlertDialogue.defaultProps = {

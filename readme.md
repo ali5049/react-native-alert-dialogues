@@ -67,6 +67,7 @@ class Example extends Component {
  cancelTitle        | Title of cancel button        |  String         | Any String Value
  iconImage          | Custome image source for icon |  Image Soucrce  | Any String Value
  hideIcon           | Hide the icon in alert        |  Boolean        | true or false
+ buttonColor        | Button Color of the dialogue  |  String         | Any Color Value
 
  
 ## Callbacks
